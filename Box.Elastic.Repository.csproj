@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>Box.Elastic.Repository</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.1</Version>
+    <Authors>Resul Demirok</Authors>
+    <Company>Resul Co</Company>
+    <Description>Lightweight IQueryable provider + Generic repository for Elasticsearch (NEST) — EF-like API.</Description>
+    <PackageTags>Elasticsearch;LINQ;IQueryable;NEST</PackageTags>
+    <RepositoryUrl>https://github.com/resuldemirok/Box.Elastic.Repository</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
+</Project>
